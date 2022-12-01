@@ -15,6 +15,9 @@
             <a href="index.html" class="active">Home</a>
             <a href="https://abdinai0000.github.io/stylin-with-css/"target= >Stylin wit CSS</a>
             <a href="https://abdinai0000.github.io/explore-california/ "target=>Explore Oregon</a>
+            <a href="https://abdinai0000.github.io/positioning/"target->Positioning</a>
+            <a href="https://abdinai0000.github.io/timeofday/"target=>Time of Day</a>
+            <a href="https://abdinai0000.github.io/html-template-/"target=>HTML template</a>
             <a href="https://github.com/abdinai0000" target=>GitHub</a>
             <a href="https://www.linkedin.com/in/naima-abdi-43359a248/"target=>LinkedIn</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -46,26 +49,7 @@
   </main>
      
   <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
-    <script>
-    //https://tinyurl.com/dynamic-html-checker
-    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
-      
-    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href); 
-     
-     //set current year in span with id of this-year
-     let d = new Date(); let thisYear = d.getFullYear();
-     document.getElementById("this-year").innerHTML = thisYear;
-    
-    //manages mobile nav 
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }   
- </script>
+    <script src="js/main.js"></script>
      
  </body>
 </html>
